@@ -1,5 +1,5 @@
 public class Max {
-    public static Integer call(int i, int j) {
-        return (int) Math.max(i, j);
+    public static Double call(int i, int j) {
+        return (double) Math.max(i, j);
     }
 }

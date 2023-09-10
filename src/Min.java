@@ -1,5 +1,5 @@
 public class Min {
-    public static Integer call(int i, int j) {
-        return (int) Math.min(i, j);
+    public static Double call(int i, int j) {
+        return (double) Math.min(i, j);
     }
 }

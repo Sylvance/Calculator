@@ -1,5 +1,5 @@
 public class Division {
-    public static Integer call(Integer a, Integer b) {
+    public static Double call(Double a, Double b) {
         return a/b;
     }
 }

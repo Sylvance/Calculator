@@ -1,5 +1,5 @@
 public class Sqrt {
-    public static Integer call(Double a) {
-        return (int) Math.sqrt(a);
+    public static Double call(Double a) {
+        return Math.sqrt(a);
     }
 }

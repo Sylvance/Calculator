@@ -9,18 +9,18 @@ public class App {
         String key = scanner.nextLine();
         scanner.close();
 
-        Integer ans = 0;
+        Double ans = 0.0;
         String answerString = "Answer: ";
 
         switch (key) {
             case "Addition":
-                ans = Addition.call(6,2);
+                ans = Addition.call(6.0,2.0);
                 break;
             case "Ceiling":
                 ans = Ceiling.call(14.4);
                 break;
             case "Division":
-                ans = Division.call(6,2);
+                ans = Division.call(6.0,2.0);
                 break;
             case "Floor":
                 ans = Floor.call(14.4);
@@ -32,7 +32,7 @@ public class App {
                 ans = Min.call(6, 2);
                 break;
             case "Multiplication":
-                ans = Multiplication.call(6,2);
+                ans = Multiplication.call(6.0,2.0);
                 break;
             case "Round":
                 ans = Round.call(14.4);
@@ -41,7 +41,7 @@ public class App {
                 ans = Sqrt.call(14.4);
                 break;
             case "Subtraction":
-                ans = Subtraction.call(6,2);
+                ans = Subtraction.call(6.0,2.0);
                 break;
             default:
                 System.err.println("Invalid Operation. Use: Addition, Division, Multiplication or Subtraction.");
